@@ -47,6 +47,7 @@ export const TextHeader = styled.section`
   }
   h1{
     font-size: 80px;
+    text-align: center;
   }
 
   button{

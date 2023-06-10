@@ -8,8 +8,9 @@ export const MainPage = styled.main`
   height: 100%;
 `
 export const Welcome = styled.section`
+
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,5 +40,19 @@ export const Welcome = styled.section`
     background: black;
     color: white;
   }
-
+@media (max-width:1200px) {
+  .img{
+    width: 300px;
+    height: 400px;
+  }
+}
+@media (max-width:980px) {
+  margin-top: 50px;
+  text-align: center;
+  .img{
+    order:2;
+    width: 500px;
+    height: 600px;
+  }
+}
 `
