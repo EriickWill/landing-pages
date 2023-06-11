@@ -17,9 +17,9 @@ export const Welcome = styled.section`
   gap: 50px;
   flex-wrap: wrap;
   .img{
-    width: 500px;
+    width: 450px;
     height: 600px;
-    background: #000;
+    background: url("./travelAndTours/welcome.jpg")center center/cover no-repeat;
   }
   .text p{
     max-width: 550px;
