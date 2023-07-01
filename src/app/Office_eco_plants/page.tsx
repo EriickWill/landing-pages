@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function Office_eco_plants() {
@@ -7,9 +8,9 @@ export default function Office_eco_plants() {
             <h1 className='text-7xl w-96 font-bold mb-10'>Office eco plants</h1>
             <p className='w-96'>The growth of the plants will offer a varying appearance for returning costumers. Vine plants and ivy seeded inside some pots</p>
             <div className='flex gap-10  mt-20 sm:self-start self-center'>
-              <div className='w-20 h-20 rounded-full  bg-zinc-900'></div>
-              <div className='w-20 h-20 rounded-full  bg-zinc-900'></div>
-              <div className='w-20 h-20 rounded-full  bg-zinc-900'></div>
+              <div className='w-20 h-20 rounded-full '><Image src="/officeEco/calamo.png" alt='imagem de planta' width={100} height={100}/></div>
+              <div className='w-20 h-20 rounded-full  '><Image src="/officeEco/plantar.png" alt='imagem de planta' width={100} height={100}/></div>
+              <div className='w-20 h-20 rounded-full  '><Image src="/officeEco/regando-plantas.png" alt='imagem de planta' width={100} height={100}/></div>
             </div>
       </section>
       <section className=" w-full h-screen bg-officeEco bg-cover bg-center flex items-center justify-center sm:w-2/4" >
